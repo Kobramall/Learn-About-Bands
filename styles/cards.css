@@ -12,12 +12,14 @@ section{
 
 .card-group{
    text-align: center;
+   background-repeat: no-repeat;
 }
 
 .card-group h2{
    transform: translate(0%, -450%);
   color: black;
    transition: all .5s linear;
+   font-family: fantasy;
 }
 
 .card-group:hover > h2{
@@ -38,6 +40,8 @@ section{
 .big-card{
     width: 30vmin;
     border-radius:1vmin;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
 }
 
 .little-card{
