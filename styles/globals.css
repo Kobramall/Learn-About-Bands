@@ -19,6 +19,52 @@ a {
   box-sizing: border-box;
 }
 
+.falloutHome{
+   background-image: url("../public/fall-out-boy-mania.gif");
+   background-size: 100%;
+}
+
+.falloutNav{
+  margin-top: 30%;
+  
+}
+
+.gunsHome{
+  background-image: url("../public/gunsMusic.gif");
+  background-size:100%;
+}
+
+.gunsNav{
+  margin-top: 30%;
+  
+}
+
+.nirvanaHome{
+  background-image: url("../public/nirvanaGif.gif");
+  background-size:100%;
+}
+
+.nirvanaHome h1{
+  margin-top: 15%;
+}
+
+.nirvanaNav{
+  margin-top: 15%;
+  
+}
+
+.metllicaHome{
+  background-image: url("../public/mettlicaGif.gif");
+  background-size:100%;
+}
+
+.metllicaNav{
+  margin-top: 30%;
+}
+
+
+
+
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;

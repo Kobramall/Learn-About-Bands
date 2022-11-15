@@ -17,7 +17,9 @@
     "next": "13.0.2",
     "react": "18.2.0",
     "react-dom": "^18.2.0",
+    "react-icons": "^4.6.0",
     "react-router-dom": "^6.4.3",
+    "react-slideshow-image": "^4.0.5",
     "typescript": "4.8.4"
   },
   "devDependencies": {
