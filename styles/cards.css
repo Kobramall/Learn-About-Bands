@@ -17,7 +17,7 @@ section{
 
 .card-group h2{
    transform: translate(0%, -450%);
-  color: black;
+  color:transparent;
    transition: all .5s linear;
    font-family: fantasy;
 }
@@ -54,22 +54,22 @@ section{
 
 .big-card:nth-child(1){
    transform: translateX(-10%) rotate(-1deg);
-   background-image: url('../public/nirvana.jpg');
+   background-image: url('https://static.stereogum.com/uploads/2022/10/Guns-N-Roses-1666274727.jpg');
 }
 
 .big-card:nth-child(2){ 
     transform: rotate(2deg);
-    background-image: url('../public/metllica.jpg');
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmDzsRIZd84qLlcGcPH1Bkn29UGLB7BH-VZQ&usqp=CAU');
  }
 
  .big-card:nth-child(3){
     transform: translateX(-6%) rotate(-3deg);
-    background-image: url('../public/guns&roses.jpg');
+    background-image: url('https://i5.walmartimages.com/asr/89f6ca50-9e6b-4dde-9f2e-d14b1e93d2e3.4dc5560b76223021dfd002459e04f5fa.jpeg?odnHeight=612&odnWidth=612&odnBg=FFFFFF');
  }
 
  .big-card:nth-child(4){ 
     transform: translate(10%, 3%) rotate(5deg);
-    background-image: url("../public/falloutBoy.jpg");
+    background-image: url("https://i.pinimg.com/736x/a4/26/01/a4260138dec85703846cfe4c7a5e2e15--music-bands-boys.jpg");
     z-index: 1;
  }
 
@@ -77,11 +77,12 @@ section{
     background-image: url('../public/falloutLogo.png');
     background-size: 225%;
     background-position: 52%;
+    background-repeat: no-repeat;
  }
 
  .little-card:nth-child(6){
-    background-image: url('../public/gunsLogo.jpg');
-    background-size: 150%;
+    background-image: url('../public/nirvanaLogo.jpg');
+    background-size: 88%;
     background-position: 52%;
  }
 
@@ -92,8 +93,8 @@ section{
  }
 
  .little-card:nth-child(8){
-    background-image: url('../public/nirvanaLogo.jpg');
-    background-size: 88%;
+    background-image: url('../public/gunsLogo.jpg');
+    background-size: 120%;
     background-position: 52%;
  }
 

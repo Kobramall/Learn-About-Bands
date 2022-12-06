@@ -6,7 +6,7 @@ const HomePage = () =>{
     
     return(
         <main>
-        <section className='bg-black min-h-screen'>
+        <section className=' min-h-screen'>
           <div className='card-group'> 
             
             <div className='big-card card'>
@@ -24,13 +24,13 @@ const HomePage = () =>{
             <Link href="/falloutboy/falloutboy" className='little-card card'>
            
             </Link>
-            <Link href="/guns&roses/guns&roses" className='little-card card'>
+            <Link href="/nirvana/nirvana" className='little-card card'>
 
             </Link>
             <Link href="/metllica/metllica" className='little-card card'>
 
             </Link>
-            <Link href="/nirvana/nirvana" className='little-card card'>
+            <Link href="/guns&roses/guns&roses" className='little-card card'>
 
             </Link>
             <h2 className="text-white">Click A Logo To Learn More</h2>

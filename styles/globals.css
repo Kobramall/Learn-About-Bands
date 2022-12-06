@@ -20,27 +20,28 @@ a {
 }
 
 .falloutHome{
-   background-image: url("../public/fall-out-boy-mania.gif");
+   background-image: url("https://media.giphy.com/media/3ohBVyZIedGgXbV85y/giphy.gif");
    background-size: 100%;
 }
 
+
 .falloutNav{
-  margin-top: 30%;
+  margin-top: 28%;
   
 }
 
 .gunsHome{
-  background-image: url("../public/gunsMusic.gif");
+  background-image: url("https://media.giphy.com/media/3o6nUL0nqcYTuFoYSI/giphy.gif");
   background-size:100%;
 }
 
 .gunsNav{
-  margin-top: 30%;
+  margin-top: 28%;
   
 }
 
 .nirvanaHome{
-  background-image: url("../public/nirvanaGif.gif");
+  background-image: url("https://media.giphy.com/media/VmSttuhlSkfAXpuyFm/giphy.gif");
   background-size:100%;
 }
 
@@ -54,12 +55,25 @@ a {
 }
 
 .metllicaHome{
-  background-image: url("../public/mettlicaGif.gif");
+  background-image: url("https://media.giphy.com/media/d31x88jFvbNxJcxa/giphy.gif");
   background-size:100%;
 }
 
+
 .metllicaNav{
-  margin-top: 30%;
+  margin-top: 28%;
+  height: 60px;
+}
+
+.mcareer{
+  transition:all .2s ease-in-out;
+}
+
+
+.mcareer:hover{
+  font-size: 500%;
+  color:black;
+  background-color: none;
 }
 
 

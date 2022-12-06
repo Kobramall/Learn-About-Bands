@@ -1,5 +1,6 @@
 import React from "react";
 import Header from "../Header";
+import Link from "next/link";
 
 
 const GunHome = () =>{
@@ -8,12 +9,13 @@ const GunHome = () =>{
       <div className="gunsHome h-screen w-screen text-center">
           <Header />
           <h1 className="text-white opacity-50 text-2xl mt-16">Learn more about Guns N Roses or take a quiz to test your knowledge</h1>
-        <div className="gunsNav flex justify-evenly text-xl bg-black opacity-50 h-16">
-          <button className="text-white border-white border-lg">Early Career</button>
-          <button className="text-white">Career</button>
-          <button className="text-white">Stats</button>
-          <button className="text-white">Quiz</button>  
+        <div className="gunsNav flex justify-evenly text-xl bg-gradient-to-r from-gray-400 to-transparent opacity-50 h-16 text-white">
+          <Link href="/guns&roses/career" className="mt-4">Career</Link>
+          <Link href="/" className="mt-4">Fun Facts</Link>
+          <Link href="/" className="mt-4">Stats</Link>
+          <Link href="/" className="mt-4">Quiz</Link>  
         </div> 
+        <audio className="opacity-0" controls autoPlay><source src="../../gunsSound.mp3" type="audio/mpeg"/></audio>
       </div>
     )
 }
