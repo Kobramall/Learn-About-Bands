@@ -19,6 +19,8 @@ a {
   box-sizing: border-box;
 }
 
+/*Fall out boy CSS */
+
 .falloutHome{
    background-image: url("https://media.giphy.com/media/3ohBVyZIedGgXbV85y/giphy.gif");
    background-size: 100%;
@@ -30,6 +32,22 @@ a {
   
 }
 
+.falloutNav div{
+  transition:all .2s ease-in-out;
+}
+
+.falloutNav div:hover{
+  font-size: 570%;
+  color:black;
+  opacity: 100%;
+}
+
+.fall-fact-container div{
+  background-image: url("https://free2music.com/images/thumb/singer/2018/11/15/fall-out-boy_1.jpg,0,400.jpg")
+}
+
+/*Guns CSS */
+
 .gunsHome{
   background-image: url("https://media.giphy.com/media/3o6nUL0nqcYTuFoYSI/giphy.gif");
   background-size:100%;
@@ -39,6 +57,17 @@ a {
   margin-top: 28%;
   
 }
+
+.gunsNav div{
+  transition:all .2s ease-in-out;
+}
+
+.gunsNav div:hover{
+  font-size: 570%;
+  color:black;
+}
+
+/*Nirvana boy CSS */
 
 .nirvanaHome{
   background-image: url("https://media.giphy.com/media/VmSttuhlSkfAXpuyFm/giphy.gif");
@@ -51,8 +80,22 @@ a {
 
 .nirvanaNav{
   margin-top: 15%;
-  
+ 
 }
+
+
+.nirvanaNav div{
+  transition:all .2s ease-in-out;
+}
+
+.nirvanaNav div:hover{
+  font-size: 570%;
+  color:black;
+  background-color: none;
+}
+
+
+/*Metallica boy CSS */
 
 .metllicaHome{
   background-image: url("https://media.giphy.com/media/d31x88jFvbNxJcxa/giphy.gif");
@@ -65,13 +108,13 @@ a {
   height: 60px;
 }
 
-.mcareer{
+.metllicaNav div{
   transition:all .2s ease-in-out;
 }
 
 
-.mcareer:hover{
-  font-size: 500%;
+.metllicaNav div:hover{
+  font-size: 570%;
   color:black;
   background-color: none;
 }
