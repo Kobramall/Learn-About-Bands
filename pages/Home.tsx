@@ -6,7 +6,7 @@ const HomePage = () =>{
     
     return(
         <main>
-        <section className=' min-h-screen'>
+        <section className='min-h-screen'>
           <div className='card-group'> 
             
             <div className='big-card card'>
@@ -38,6 +38,6 @@ const HomePage = () =>{
           </section>
       </main>
     )
-}
+};
 
 export default HomePage

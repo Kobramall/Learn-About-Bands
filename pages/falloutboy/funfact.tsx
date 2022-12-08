@@ -1,13 +1,17 @@
 import React from "react"
+import Header from "../Header"
 
 const Fun = () =>{
     return(
-        <div className=" fall-fact-container min-h-screen bg-gradient-to-br from-black to-gray-900">
-              <div className="h-96 w-80"></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
+        <div className="bg-gradient-to-br from-black to-gray-900">
+        <Header />
+        <div className=" flex flex-col items-center fall-fact-container min-h-screen min-w-full">
+              <div className="fall-fact-card h-52 w-80 absolute bg-no-repeat border-8"></div>
+              <div className="fall-fact-card h-52 w-80 absolute bg-no-repeat border-8"></div>
+              <div className="fall-fact-card h-52 w-80 absolute bg-no-repeat border-8"></div>
+              <div className="fall-fact-card h-52 w-80 absolute bg-no-repeat border-8"></div>
+              <div className="fall-fact-card h-52 w-80 absolute bg-no-repeat border-8"></div>
+        </div>
         </div>
     )
 }

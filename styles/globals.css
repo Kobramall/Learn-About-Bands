@@ -43,7 +43,30 @@ a {
 }
 
 .fall-fact-container div{
-  background-image: url("https://free2music.com/images/thumb/singer/2018/11/15/fall-out-boy_1.jpg,0,400.jpg")
+  background-image: url("https://free2music.com/images/thumb/singer/2018/11/15/fall-out-boy_1.jpg,0,400.jpg");
+  transition:all .2s ease-in-out;
+}
+
+.fall-fact-card:nth-child(1){
+  transform: translateX(-150%) translateY(200%) rotate(-20deg);
+}
+
+.fall-fact-card:nth-child(2){
+  transform: translateX(-130%) translateY(50%) rotate(-10deg)
+}
+
+.fall-fact-card:nth-child(3){
+  transform: translateX(130%) translateY(50%) rotate(-10deg)
+}
+
+.fall-fact-card:nth-child(4){
+  transform: translateX(80%) translateY(200%) rotate(10deg)
+}
+
+.fall-fact-card:hover{
+  background-color: whitesmoke;
+  background-image: none;
+  color: black;
 }
 
 /*Guns CSS */
@@ -65,6 +88,33 @@ a {
 .gunsNav div:hover{
   font-size: 570%;
   color:black;
+}
+
+.gun-fact-container div{
+  background-image: url("https://free2music.com/images/thumb/singer/2018/11/15/fall-out-boy_1.jpg,0,400.jpg");
+  transition:all .2s ease-in-out;
+}
+
+.gun-fact-card:nth-child(1){
+  transform: translateX(-150%) translateY(200%) rotate(-20deg);
+}
+
+.gun-fact-card:nth-child(2){
+  transform: translateX(-130%) translateY(50%) rotate(-10deg)
+}
+
+.gun-fact-card:nth-child(3){
+  transform: translateX(130%) translateY(50%) rotate(-10deg)
+}
+
+.gun-fact-card:nth-child(4){
+  transform: translateX(80%) translateY(200%) rotate(10deg)
+}
+
+.gun-fact-card:hover{
+  background-color: whitesmoke;
+  background-image: none;
+  color: black;
 }
 
 /*Nirvana boy CSS */
@@ -94,6 +144,34 @@ a {
   background-color: none;
 }
 
+.nirvana-fact-container div{
+  background-image: url("https://free2music.com/images/thumb/singer/2018/11/15/fall-out-boy_1.jpg,0,400.jpg");
+  transition:all .2s ease-in-out;
+  color: transparent;
+}
+
+.nirvana-fact-card:nth-child(1){
+  transform: translateX(-150%) translateY(200%) rotate(-20deg);
+}
+
+.nirvana-fact-card:nth-child(2){
+  transform: translateX(-130%) translateY(50%) rotate(-10deg)
+}
+
+.nirvana-fact-card:nth-child(3){
+  transform: translateX(130%) translateY(50%) rotate(-10deg)
+}
+
+.nirvana-fact-card:nth-child(4){
+  transform: translateX(80%) translateY(200%) rotate(10deg)
+}
+
+.nirvana-fact-card:hover{
+  background-color: whitesmoke;
+  background-image: none;
+  color: black;
+}
+
 
 /*Metallica boy CSS */
 
@@ -117,6 +195,33 @@ a {
   font-size: 570%;
   color:black;
   background-color: none;
+}
+
+.metllica-fact-container div{
+  background-image: url("https://free2music.com/images/thumb/singer/2018/11/15/fall-out-boy_1.jpg,0,400.jpg");
+  transition:all .2s ease-in-out;
+}
+
+.metllica-fact-card:nth-child(1){
+  transform: translateX(-150%) translateY(200%) rotate(-20deg);
+}
+
+.metllica-fact-card:nth-child(2){
+  transform: translateX(-130%) translateY(50%) rotate(-10deg)
+}
+
+.metllica-fact-card:nth-child(3){
+  transform: translateX(130%) translateY(50%) rotate(-10deg)
+}
+
+.metllica-fact-card:nth-child(4){
+  transform: translateX(80%) translateY(200%) rotate(10deg)
+}
+
+.metllica-fact-card:hover{
+  background-color: whitesmoke;
+  background-image: none;
+  color: black;
 }
 
 
