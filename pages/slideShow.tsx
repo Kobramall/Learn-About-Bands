@@ -3,11 +3,11 @@ import {Zoom} from 'react-slideshow-image'
 import "react-slideshow-image/dist/styles.css"
 import Image from 'next/image'
 
-const SlideShow = () => {
-    const images = [ "/../public/falloutMusic.jpg",
-                    "/../public/falloutLogo.png",
-                    "/../public/metllica.jpg"
-];
+const SlideShow = (props) => {
+    const images = props.images
+    
+
+    console.log(images);
 
     const zoomInProperties = {
         indicators: true,

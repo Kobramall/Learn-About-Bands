@@ -10,7 +10,7 @@ const Fun = () =>{
               <div className="gun-fact-card h-52 w-80 absolute bg-no-repeat border-8"></div>
               <div className="gun-fact-card h-52 w-80 absolute bg-no-repeat border-8"></div>
               <div className="gun-fact-card h-52 w-80 absolute bg-no-repeat border-8"></div>
-              <div className="gun-fact-card h-52 w-80 absolute bg-no-repeat border-8"></div>
+              <div className="gun-fact-card h-52 mt-3 w-80 absolute bg-no-repeat border-8"></div>
         </div>
         </div>
     )
