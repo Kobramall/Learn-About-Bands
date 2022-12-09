@@ -10,7 +10,7 @@ const Stats = () =>{
  ]
     
     return(
-       <div>
+       <div className='bg-gradient-to-br from-black to-gray-900 min-h-screen'>
           <Header />
           <SlideShow images={imageURLs}/>
        </div>
