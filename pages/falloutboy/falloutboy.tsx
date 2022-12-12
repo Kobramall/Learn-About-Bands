@@ -16,7 +16,7 @@ const FallHome = () =>{
              <div className="flex justify-center"><Link href="/falloutboy/career" className="mt-4">Career</Link></div>
              <div className="flex justify-center"><Link href="/falloutboy/funfact" className="mt-4"><p>Fun Facts</p></Link></div>
              <div className="flex justify-center"><Link href="/falloutboy/stats" className="mt-4">Stats</Link></div>
-             <div className="flex justify-center"><Link href="/" className="mt-4">Quiz</Link></div> 
+             <div className="flex justify-center"><Link href="/falloutboy/quiz" className="mt-4">Quiz</Link></div> 
           </div>
           <audio className="opacity-0" controls autoPlay><source src="../../falloutsound.mp3" type="audio/mpeg"/></audio>
       </div>

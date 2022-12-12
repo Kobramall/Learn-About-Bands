@@ -7,7 +7,7 @@ const Fun = () =>{
         <Header />
         <div className=" flex flex-col items-center metllica-fact-container min-h-screen min-w-full text-transparent">
               <div className="metllica-fact-card h-52 w-80 absolute bg-no-repeat border-8">
-                <h3 className="text-lg mb-2">Big Bucks</h3>
+                <h3 className="text-lg">Big Bucks</h3>
                 Drummer Lars Ulrich is officially the world’s richest metal drummer. The lucrative title comes partly as a result of the sales of Metallica’s first three albums, which netted him more than $12 million.
               </div>
               <div className="metllica-fact-card h-52 w-80 absolute bg-no-repeat border-8">
