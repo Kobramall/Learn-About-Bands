@@ -43,31 +43,46 @@ a {
   opacity: 100%;
 }
 
-.fall-fact-container div{
-  background-image: url("https://free2music.com/images/thumb/singer/2018/11/15/fall-out-boy_1.jpg,0,400.jpg");
-  transition:all .2s ease-in-out;
-}
 
 .fall-fact-card:nth-child(1){
   transform: translateX(-150%) translateY(200%) rotate(-20deg);
+  background-image: url('https://chorus.fm/wp-content/uploads/2016/04/patrick.jpg');
+  background-size: 115%;
+  background-position: center;
 }
 
 .fall-fact-card:nth-child(2){
-  transform: translateX(-130%) translateY(50%) rotate(-10deg)
+  transform: translateX(-130%) translateY(50%) rotate(-10deg);
+  background-image: url('https://i.ytimg.com/vi/tc0AXNOD6RY/maxresdefault.jpg');
+  background-size: 115%;
+  background-position: center;
 }
 
 .fall-fact-card:nth-child(3){
-  transform: translateX(130%) translateY(50%) rotate(-10deg)
+  transform: translateX(130%) translateY(50%) rotate(-10deg);
+  background-image: url('https://cdn-prod.medicalnewstoday.com/content/images/articles/325/325297/dissolvable-stitches.jpg');
+  background-size: 115%;
+  background-position: center;
 }
 
 .fall-fact-card:nth-child(4){
-  transform: translateX(80%) translateY(200%) rotate(10deg)
+  transform: translateX(80%) translateY(200%) rotate(10deg);
+  background-image: url('https://www.redcross.org/content/dam/redcross/red-cross-logos/American-Red-Cross_Logo_1200x630.jpg');
+  background-size: 121%;
+  background-position: center;
+}
+
+.fall-fact-card:nth-child(5){
+  background-image: url('https://i.pinimg.com/736x/31/ff/6d/31ff6d50beb544d35b38446f366626ea--sixteen-candles-vampires.jpg');
+  background-size: 115%;
+  background-position: center;
 }
 
 .fall-fact-card:hover{
   background-color: whitesmoke;
   background-image: none;
   color: black;
+  transition:all .2s ease-in-out;
 }
 
 
@@ -94,29 +109,47 @@ a {
 
 .gun-fact-container div{
   background-image: url("https://free2music.com/images/thumb/singer/2018/11/15/fall-out-boy_1.jpg,0,400.jpg");
-  transition:all .2s ease-in-out;
+ 
 }
 
 .gun-fact-card:nth-child(1){
   transform: translateX(-150%) translateY(200%) rotate(-20deg);
+  background-image: url('https://m.media-amazon.com/images/I/51K7n+p70OL._SY580_.jpg');
+  background-size: 80%;
+  background-position: center;
 }
 
 .gun-fact-card:nth-child(2){
-  transform: translateX(-130%) translateY(50%) rotate(-10deg)
+  transform: translateX(-130%) translateY(50%) rotate(-10deg);
+  background-image:url('https://upload.wikimedia.org/wikipedia/en/7/77/Grammy_Award_2002.jpg');
+  background-position: center;
 }
 
 .gun-fact-card:nth-child(3){
-  transform: translateX(130%) translateY(50%) rotate(-10deg)
+  transform: translateX(130%) translateY(50%) rotate(-10deg);
+  background-image: url('https://i.ytimg.com/vi/xP8Ho-2jsE0/maxresdefault.jpg');
+  background-position: center;
+  background-size: 115%;
 }
 
 .gun-fact-card:nth-child(4){
-  transform: translateX(80%) translateY(200%) rotate(10deg)
+  transform: translateX(80%) translateY(200%) rotate(10deg);
+  background-image: url('https://www.slashparadise.com/background/more-slash-01-reptiles.jpg');
+  background-size: 50%;
+  background-position:center;
+}
+
+.gun-fact-card:nth-child(5){
+   background-image:url('https://i.pinimg.com/originals/a7/ae/6d/a7ae6db7af0bdf7e2cd0b29e6724f297.jpg');
+   background-position: center;
+   background-size:56%;
 }
 
 .gun-fact-card:hover{
   background-color: whitesmoke;
   background-image: none;
   color: black;
+  transition:all .2s ease-in-out;
 }
 
 /*Nirvana boy CSS */
@@ -147,31 +180,48 @@ a {
 }
 
 .nirvana-fact-container div{
-  background-image: url("https://free2music.com/images/thumb/singer/2018/11/15/fall-out-boy_1.jpg,0,400.jpg");
-  transition:all .2s ease-in-out;
   color: transparent;
 }
 
 .nirvana-fact-card:nth-child(1){
   transform: translateX(-150%) translateY(200%) rotate(-20deg);
+  background-image: url('https://sophiebrannon.files.wordpress.com/2015/01/4-the-band-starting-a-food-fight.jpg');
+  background-position: center;
+  background-size: 100%;
 }
 
 .nirvana-fact-card:nth-child(2){
-  transform: translateX(-130%) translateY(50%) rotate(-10deg)
+  transform: translateX(-130%) translateY(50%) rotate(-10deg);
+  background-image: url('https://external-preview.redd.it/iVV0nNnhGYaCqB9TkxKjL1GKji-NIj5AEm_c4MboGwg.png?format=pjpg&auto=webp&s=a96407bba1765bcdd52d9213754fe5e53165741a');
+  background-position: center;
+  background-size: 100%;
 }
 
 .nirvana-fact-card:nth-child(3){
-  transform: translateX(130%) translateY(50%) rotate(-10deg)
+  transform: translateX(130%) translateY(50%) rotate(-10deg);
+  background-image:url('https://live-production.wcms.abc-cdn.net.au/cb9ff75e1c3db72b9358718e815e11f6?impolicy=wcms_crop_resize&cropH=652&cropW=978&xPos=116&yPos=0&width=862&height=575');
+  background-position: center;
+  background-size: 100%;
 }
 
 .nirvana-fact-card:nth-child(4){
-  transform: translateX(80%) translateY(200%) rotate(10deg)
+  background-image:url('https://www.1061chez.ca/wp-content/uploads/sites/23/2020/05/20891955-300x192.jpg');
+  background-position: center;
+  background-size: 100%;
+}
+
+.nirvana-fact-card:nth-child(5){
+  transform: translateX(80%) translateY(200%) rotate(10deg);
+  background-image:url('https://www.instyle.com/thmb/ejYvUIQIgSAi5FqV3ul1lMXHjP4=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/062617-teen-spirit-embed-4a545f50372f4c628f9865f592e81eec.jpg');
+  background-position: center;
+  background-size: 80%;
 }
 
 .nirvana-fact-card:hover{
   background-color: whitesmoke;
   background-image: none;
   color: black;
+  transition:all .2s ease-in-out;
 }
 
 
@@ -199,31 +249,46 @@ a {
   background-color: none;
 }
 
-.metllica-fact-container div{
-  background-image: url("https://free2music.com/images/thumb/singer/2018/11/15/fall-out-boy_1.jpg,0,400.jpg");
-  transition:all .2s ease-in-out;
-}
 
 .metllica-fact-card:nth-child(1){
   transform: translateX(-150%) translateY(200%) rotate(-20deg);
+  background-image:url('https://imageio.forbes.com/specials-images/imageserve/613404214508b2213078ff5d/0x0.jpg?format=jpg&width=1200');
+  background-position: center;
+  background-size: 100%;
 }
 
 .metllica-fact-card:nth-child(2){
-  transform: translateX(-130%) translateY(50%) rotate(-10deg)
+  transform: translateX(-130%) translateY(50%) rotate(-10deg);
+  background-image:url('https://www.factinate.com/wp-content/uploads/2018/12/mountains-482689_1280.jpg');
+  background-position: center;
+  background-size: 100%;
 }
 
 .metllica-fact-card:nth-child(3){
-  transform: translateX(130%) translateY(50%) rotate(-10deg)
+  transform: translateX(130%) translateY(50%) rotate(-10deg);
+  background-image:url('https://1.bp.blogspot.com/-4xD4VWM9ewQ/VdDzNBcFrtI/AAAAAAAD064/dA99hV_Z3SE/s1600/11796436_874984582577920_3503893587164505913_n.jpg');
+  background-position: center;
+  background-size: 100%;
 }
 
 .metllica-fact-card:nth-child(4){
-  transform: translateX(80%) translateY(200%) rotate(10deg)
+  transform: translateX(80%) translateY(200%) rotate(10deg);
+  background-image:url('https://www.factinate.com/wp-content/uploads/2018/12/GettyImages-2270118.jpg');
+  background-position: center;
+  background-size: 100%;
+}
+
+.metllica-fact-card:nth-child(5){
+  background-image:url('https://www.factinate.com/wp-content/uploads/2018/12/30991852452_2ae76ea5dc_k.jpg');
+  background-position: center;
+  background-size: 120%;
 }
 
 .metllica-fact-card:hover{
   background-color: whitesmoke;
   background-image: none;
   color: black;
+  transition:all .2s ease-in-out;
 }
 
 
