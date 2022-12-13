@@ -229,7 +229,8 @@ a {
 
 .metllicaHome{
   background-image: url("https://media.giphy.com/media/d31x88jFvbNxJcxa/giphy.gif");
-  background-size:100%;
+  background-size:120%;
+  background-repeat: no-repeat;
 }
 
 
